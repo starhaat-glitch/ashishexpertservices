@@ -60,23 +60,7 @@ export default function RootLayout({
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} bg-background`}>
 
 <!DOCTYPE html>
-<head>
-<title>Ashish Expert Services</title>
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18060641911"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'AW-18060641911');
-</script>
-
-</head>
-<body>
-<h1>Ashish Expert Services</h1>
-      
-      
-      <body className="font-sans antialiased">
+       <body className="font-sans antialiased">
         <SiteHeader />
         <main className="min-h-screen">{children}</main>
         <SiteFooter />
