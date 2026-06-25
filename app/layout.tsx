@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'AC, Washing Machine & Fridge Repair in Surat | Home Appliance Service Center',
+  title: 'AC, Washing Machine & Fridge Repair in Surat |  ashishexpertservices',
   description:
     'Fast & reliable AC repair, washing machine repair and refrigerator repair near you in Surat, Gujarat. Same-day doorstep service, certified technicians, genuine spare parts & affordable pricing. Call 7487929919.',
   keywords: [
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
     'Fridge Repair Near Me',
     'Refrigerator Service Near Me',
     'AC Gas Filling',
-    'Home Appliance Repair Service',
-    'Appliance Repair in Surat',
+    'ashishexpertservices',
+    'ashishexpertservices in Surat',
   ],
   generator: 'v0.app',
   icons: {
@@ -58,6 +58,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} bg-background`}>
+
+<!DOCTYPE html>
+<head>
+<title>Ashish Expert Services</title>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18060641911"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'AW-18060641911');
+</script>
+
+</head>
+<body>
+<h1>Ashish Expert Services</h1>
+      
+      
       <body className="font-sans antialiased">
         <SiteHeader />
         <main className="min-h-screen">{children}</main>
