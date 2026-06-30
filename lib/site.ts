@@ -1,6 +1,6 @@
 export const site = {
-  name: "Home Appliance Service Center",
-  shortName: "HASC",
+  name: "Ashish Expert Services",
+  shortName: "AES",
   phone: "7487929919",
   phoneHref: "tel:+917487929919",
   email: "dharmaac101010@gmail.com",
