@@ -13,15 +13,15 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'AC, Washing Machine & Fridge Repair in Surat |  ashishexpertservices',
+  title: 'Best AC services , All Brand AC Repair services,ac service near me, AC repair, AC cooling problem, AC water leakage in Surat |  ashishexpertservices',
   description:
-    'Fast & reliable AC repair, washing machine repair and refrigerator repair near you in Surat, Gujarat. Same-day doorstep service, certified technicians, genuine spare parts & affordable pricing. Call 7487929919.',
+    'Fast & reliable AC repair, near you in Surat, Gujarat. Same-day doorstep service, certified technicians, genuine spare parts & affordable pricing. Call 7487929919.',
   keywords: [
     'AC Repair Near Me',
     'AC Service Near Me',
-    'Washing Machine Repair Near Me',
-    'Fridge Repair Near Me',
-    'Refrigerator Service Near Me',
+    'AC Repair Near Surat',
+    'split ac repair Near Me',
+    'ac installation Near Me',
     'AC Gas Filling',
     'ashishexpertservices',
     'ashishexpertservices in Surat',
