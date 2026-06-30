@@ -7,7 +7,7 @@ import { Menu, Phone, Wrench, X } from "lucide-react"
 import { buttonVariants } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { navLinks, site } from "@/lib/site"
-import image from "next/image"
+import Image from "next/image"
 
 export function SiteHeader() {
   const pathname = usePathname()
