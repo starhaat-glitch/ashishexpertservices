@@ -7,6 +7,7 @@ import { Menu, Phone, Wrench, X } from "lucide-react"
 import { buttonVariants } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { navLinks, site } from "@/lib/site"
+import image from "next/image"
 
 export function SiteHeader() {
   const pathname = usePathname()
@@ -16,9 +17,15 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2" onClick={() => setOpen(false)}>
-          <span className="flex h-9 w-9 items-center justify-center rounded-md bg-primary text-primary-foreground">
-            <Wrench className="h-5 w-5" />
-          </span>
+         <span className="flex h-9 w-9 items-center justify-center rounded-md bg-primary">
+  <Image
+    src="/logo.png"
+    alt="Ashish Expert Services"
+    width={36}
+    height={36}
+  />
+</span>
+
           <span className="flex flex-col leading-tight">
             <span className="text-sm font-bold text-foreground sm:text-base">{site.name}</span>
             <span className="text-[11px] text-muted-foreground">{site.serviceArea}</span>
