@@ -12,7 +12,7 @@ export function Hero() {
             Trusted Appliance Repair in Surat
           </span>
           <h1 className="mt-4 text-3xl font-bold leading-tight text-balance text-foreground sm:text-4xl lg:text-5xl">
-            Fast &amp; Reliable AC repair services, Best AC services&amp; All Brands AC Repair Services
+            Fast &amp; Reliable AC repair services &amp; All Brands AC Repair Services
           </h1>
           <p className="mt-4 max-w-xl text-base leading-relaxed text-pretty text-muted-foreground sm:text-lg">
             Expert technicians, same-day service, affordable pricing, and customer satisfaction guaranteed.
